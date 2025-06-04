@@ -1,0 +1,15 @@
+{
+    "name": "kreait/firebase-php",
+    "autoload": {
+        "psr-4": {
+            "Kreait\\FirebasePhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ros-spec",
+            "email": "rjge022604@gmail.com"
+        }
+    ],
+    "require": {}
+}
