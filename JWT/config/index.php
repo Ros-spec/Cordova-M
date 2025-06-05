@@ -41,6 +41,7 @@ $serviceAccountJson = json_decode('{
   "universe_domain": "googleapis.com"
 }
 ', true);
+
 $firebase = (new Kreait\Firebase\Factory)->withServiceAccount($serviceAccountJson)->createMessaging();
 
 
