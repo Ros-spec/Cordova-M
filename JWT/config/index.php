@@ -23,7 +23,7 @@ require_once "enviarCorreo.php";
 # cd firebase-php-jwt
 # composer require firebase/php-jwt
 require_once "firebase-php-jwt/vendor/autoload.php";
-require "kreait-firebase-php/vendor/autoload.php";
+require_once "kreait-firebase-php/vendor/autoload.php";
 
 $jwtKey = "Test12345";
 
@@ -43,7 +43,6 @@ $serviceAccountJson = json_decode('{
 ', true);
 
 $firebase = (new Kreait\Firebase\Factory)->withServiceAccount($serviceAccountJson)->createMessaging();
-
 
 $con = new Conexion(array(
     "tipo"       => "mysql",
